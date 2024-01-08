@@ -114,6 +114,12 @@ img {
 background-color: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
+background-image: url(/images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
 }
 
 .hero-container { 
@@ -265,6 +271,12 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.icon-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 /*-----------------------------*/
 
 /*----------portfolio---------*/
@@ -335,7 +347,6 @@ border-top: none;
 }
 
 .footer-container {
- 
 }
 
 .logo-footer {
@@ -360,4 +371,9 @@ border-top: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+  }
+
+  .icon-media-footer {
+    display: flex;
+    gap: 8px;
   }

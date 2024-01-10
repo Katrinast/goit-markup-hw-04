@@ -194,7 +194,11 @@ padding: 120px 0;
 }
 
 .advantages-icons {
-  fill: transparent;
+  fill: #4D5AE5;
+}
+
+.advantages-icons:hover {
+  fill: #2E2F42;
 }
 
 .advantages-icons-container {
@@ -203,6 +207,7 @@ padding: 120px 0;
   padding-bottom: 24px;
   padding-left: 100px;
   margin-bottom: 8px;
+  background: #F4F4FD;
 }
 
 .advantages-subtitle {
@@ -290,11 +295,14 @@ padding: 120px 0;
   gap: 24px;
 }
 
-.icon-media-teams {
+.icon-media {
 fill: #4D5AE5;
+padding: 12px;
+border-radius: 50%;
 }
+
 .icon-media-teams:hover {
-  fill: #404BBF;
+  background-color: #2E2F42;
 }
 /*-----------------------------*/
 
@@ -404,11 +412,9 @@ border-top: none;
   flex-direction: column;
 }
 
-  .icon-media-footer {
+  .icon-list-footer {
     display: flex;
     gap: 8px;
+    margin-top: 16px;
   }
-  .icon-media-footer:hover {
-    fill: #31D0AA;
-    }
-    
+  

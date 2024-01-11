@@ -72,6 +72,25 @@ img {
   gap: 40px;
 }
 
+.item-studio {
+  position: relative;
+}
+
+.active:active::after {
+  content: "";
+  height: 4px;
+  background-color: #404BBF;
+  color: #404BBF;
+  left: 0;
+  bottom: -1px;
+  position: absolute;
+  border-radius: 2px;
+  width: 100%;
+  transition-property: active;
+  transition-duration: 250ms;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-link {
     color: #2e2f42;    
     font-weight: 500;

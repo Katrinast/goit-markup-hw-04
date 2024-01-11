@@ -103,6 +103,9 @@ img {
 .nav-link:hover,
 .nav-link:focus {
  color: #404BBF;
+  transition-property: hover, focus;
+  transition-duration: 250ms;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress {
@@ -173,6 +176,9 @@ margin: 0 auto;
       min-width: 169px;
       height: 56px;
       border: none;
+      transition-property: hover, focus;
+        transition-duration: 250ms;
+        transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-hero-button:hover,
 .section-hero-button:focus {
@@ -213,20 +219,16 @@ padding: 120px 0;
 }
 
 .advantages-icons {
-  fill: #4D5AE5;
-}
-
-.advantages-icons:hover {
-  fill: #2E2F42;
+  fill: none;
 }
 
 .advantages-icons-container {
   border: 1px solid #8E8F99;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 100px;
+  padding: 24px 100px;
   margin-bottom: 8px;
   background: #F4F4FD;
+  height: 112px;
+  border-radius: 4px;
 }
 
 .advantages-subtitle {
@@ -306,23 +308,37 @@ padding: 120px 0;
     line-height:1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .icon-media-list {
   display: flex;
   justify-content: center;
   gap: 24px;
+ 
 }
 
 .icon-media {
-fill: #4D5AE5;
-padding: 12px;
-border-radius: 50%;
+fill: none;
 }
 
-.icon-media-teams:hover {
-  background-color: #2E2F42;
+.icon-team-items {
+background-color: #4D5AE5;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+padding: 12px;
+transition-property: hover,
+    focus;
+  transition-duration: 250ms;
+  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.icon-team-items:hover
+.icon-team-items:focus {
+background-color: #404BBF;
+}
+
 /*-----------------------------*/
 
 /*----------portfolio---------*/
@@ -343,6 +359,12 @@ border-radius: 50%;
 
 .portfolio-item {
  width: calc((100% - 48px) / 3); 
+}
+
+.portfolio-item-wap {
+  width: 360px;
+    height: 300px;
+    position: relative;
 }
 
 .portfolio-item-container {
@@ -384,6 +406,12 @@ border-top: none;
     letter-spacing: 0.02em;
     }
 
+.portfolio-text-wrap {
+  position: absolute;
+  top: 0;
+  background: #4D5AE5;
+  height: 100%;
+}
 
 
 .footer {
@@ -431,9 +459,30 @@ border-top: none;
   flex-direction: column;
 }
 
-  .icon-list-footer {
-    display: flex;
-    gap: 8px;
-    margin-top: 16px;
+.icon-list-footer {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  }
+
+.icon-footer-items {
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  padding: 8px;
+  border-radius: 50%;
+  transition-property: hover,
+      focus;
+    transition-duration: 250ms;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.icon-footer-items:hover
+.icon-footer-items:focus{
+  background-color: #31D0AA;
+}
+
+  .icon-media-footer {
+fill: none;
   }
   

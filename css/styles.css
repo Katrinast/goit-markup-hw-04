@@ -383,26 +383,6 @@ border-top: none;
   height: auto;
 }
 
-.portfolio-wrap {
-  position: relative;
-  overflow: hidden;
-}
-
-.text-portfolio-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  background-color: #4D5AE5;
-  padding: 40px 32px 164px 40px;
-}
-
-.portfolio-item:hover .portfolio-wrap {
-  transform: translateY(0);
-}
-
 .portfolio-subtitle {
     color:#2E2F42;
     font-size: 20px;

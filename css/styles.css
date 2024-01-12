@@ -330,8 +330,7 @@ transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-media-list:hover .icon-team-items
-.icon-media-list:hover .icon-team-items {
+.icon-team-items:hover {
 background-color: #404BBF;
 }
 
@@ -441,20 +440,20 @@ border-top: none;
 }
 
 .logo-footer {
-    color:#4D5AE5;
-    font-family: 'Raleway',
-      sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
+  color:#4D5AE5;
+  font-family: 'Raleway',
+    sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-item {
-    color:#F4F4FD;
+  color:#F4F4FD;
 }
 
 .footer-text {
@@ -487,18 +486,16 @@ border-top: none;
   background-color: #4D5AE5;
   padding: 8px;
   border-radius: 50%;
-  transition-property: hover,
-      focus;
+  transition-property: background-color;
     transition-duration: 250ms;
-    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-.icon-footer-items:hover
-.icon-footer-items:focus{
+.icon-footer-items:hover {
   background-color: #31D0AA;
 }
 
-  .icon-media-footer {
+.icon-media-footer {
 fill: none;
   }
   

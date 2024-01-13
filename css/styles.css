@@ -74,7 +74,7 @@ img {
   gap: 40px;
 }
 
-.active {
+.nav-link.active {
   position: relative;
   color: #404bbf;
   }
@@ -199,9 +199,6 @@ padding: 120px 0;
 }
 
 .advantages-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .visually-hidden {
@@ -218,12 +215,14 @@ padding: 120px 0;
 }
 
 .advantages-list {
-  display: flex;
-  gap: 24px;
-  }
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .advantages-icons {
@@ -323,23 +322,9 @@ padding: 120px 0;
   gap: 24px;
 }
 
-.icon-media {
-fill: #f4f4fd;
-}
-
 .icon-team-items {
-/*background-color: #4D5AE5;
-/*border-radius: 50%;*/
 width: 40px;
 height: 40px;
-padding: 12px;
-transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-team-items:hover {
-background-color: #404BBF;
 }
 
 .icon-link-team {
@@ -355,10 +340,14 @@ background-color: #404BBF;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .icon-link-team:hover,
-  .icon-link-team:focus {
-    background-color: #404BBF;
+.icon-link-team:hover,
+.icon-link-team:focus {
+background-color: #404BBF;
   }
+
+.icon-media {
+fill: #f4f4fd;
+}
 
 /*-----------------------------*/
 
@@ -519,15 +508,22 @@ border-top: none;
 .icon-footer-items {
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
-  padding: 8px;
-  border-radius: 50%;
-  transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
-.icon-footer-items:hover {
+.icon-footer-link {
+width: 100%;
+height: 100%; 
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #4D5AE5;
+border-radius: 50%;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-footer-link:hover {
   background-color: #31D0AA;
 }
 

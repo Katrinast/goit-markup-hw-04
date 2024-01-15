@@ -376,8 +376,6 @@ column-gap: 24px;
 
 .portfolio-wrap {
 position: relative;
-height: 300px;
-width: 360px;
 object-fit: cover;
 overflow: hidden;
 }
